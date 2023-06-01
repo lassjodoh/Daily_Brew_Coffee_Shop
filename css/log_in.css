@@ -1,0 +1,58 @@
+body {
+  height: 100%;
+  background-image: url('../images/checkoutimg.jpg');
+  background-size: cover;
+  background-position: center center; /* x & y values */
+  background-repeat: no-repeat; /* image shows only once */
+}
+/* 
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+} */
+
+.heading {
+  text-align: center;
+}
+
+footer {
+  /* color: antiquewhite; */
+  padding: 20px;
+  text-align: center;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* We need to set the maximum width for the object we need to center,
+  so it doesn't span the entire screen width */
+
+.centered {
+  width: 50%; /* 50% of the creen's width */
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
